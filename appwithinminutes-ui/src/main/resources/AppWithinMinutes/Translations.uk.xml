@@ -1,0 +1,268 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<!--
+ * See the NOTICE file distributed with this work for additional
+ * information regarding copyright ownership.
+ *
+ * This is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as
+ * published by the Free Software Foundation; either version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this software; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
+-->
+
+<xwikidoc version="1.3" reference="AppWithinMinutes.Translations" locale="uk">
+  <web>AppWithinMinutes</web>
+  <name>Translations</name>
+  <language>uk</language>
+  <defaultLanguage>en</defaultLanguage>
+  <translation>1</translation>
+  <creator>xwiki:XWiki.Admin</creator>
+  <parent>AppWithinMinutes.WebHome</parent>
+  <author>xwiki:XWiki.Admin</author>
+  <contentAuthor>xwiki:XWiki.Admin</contentAuthor>
+  <version>1.1</version>
+  <title/>
+  <comment/>
+  <minorEdit>false</minorEdit>
+  <syntaxId>plain/1.0</syntaxId>
+  <hidden>true</hidden>
+  <content>### Home page
+platform.appwithinminutes.homePageTitle=Додаток За Хвилину
+platform.appwithinminutes.description=Створюйте спільні веб-програми протягом декількох хвилин на основі потужної структурованої системи керування даними XWiki.
+platform.appwithinminutes.createAppButtonLabel=Створити додаток
+platform.appwithinminutes.appsLiveTableHeading=Додатки
+platform.appwithinminutes.appsLiveTable.doc.title=Додаток
+platform.appwithinminutes.appsLiveTable.doc.author=Редактор
+platform.appwithinminutes.appsLiveTable.doc.date=Оновлено
+platform.appwithinminutes.appsLiveTable._actions=Дії
+platform.appwithinminutes.grantSpaceAdminRightsSaveComment=Надати права на адміністрування простору.
+
+### AWM Applications panel entry
+platform.appwithinminutes.appPanelCreateEntry=Створити власний!
+
+### Wizard step
+platform.appwithinminutes.wizardStepHeading=Крок {0} — {1}
+appWithinMinutes.wizardStep.name.name=Назва
+appWithinMinutes.wizardStep.name.title=Назвіть свій додаток
+appWithinMinutes.wizardStep.name.description=Виберіть назву програми
+appWithinMinutes.wizardStep.structure.name=Структура
+appWithinMinutes.wizardStep.structure.title=Структура ваших даних
+appWithinMinutes.wizardStep.structure.description=Опишіть дані додатка
+appWithinMinutes.wizardStep.entries.name=Записи
+appWithinMinutes.wizardStep.entries.title=Розташуйте свої дані
+appWithinMinutes.wizardStep.entries.description=Виберіть, де зберігати дані
+appWithinMinutes.wizardStep.presentation.name=Подання
+appWithinMinutes.wizardStep.presentation.title=Персоналізувати домашню сторінку програми
+appWithinMinutes.wizardStep.presentation.description=Персоналізувати домашню сторінку програми
+platform.appwithinminutes.wizardStepNextButtonLabel=Наступний крок
+platform.appwithinminutes.wizardStepNextButtonTip=Перейти далі
+platform.appwithinminutes.wizardStepFinishButtonLabel=Завершити
+platform.appwithinminutes.wizardStepFinishButtonTip=Перейти на домашню сторінку додатка
+platform.appwithinminutes.wizardStepPreviousButtonLabel=Попередній крок
+platform.appwithinminutes.wizardStepPreviousButtonTip=Повернутись назад
+platform.appwithinminutes.wizardStepHelpTitle=Кроки
+platform.appwithinminutes.wizardStepHelpDescription=Цей майстер допоможе вам у процесі створення додатка. Наступні кроки такі:
+
+### Wizard Step 1: Application Name
+appWithinMinutes.createApp.location.label=Розташування
+appWithinMinutes.createApp.location.hint=Місцезнаходження в структурі сторінок, де буде створено додаток.
+appWithinMinutes.createApp.parent.label=Батько
+appWithinMinutes.createApp.parent.hint=Батько нового додатка. Залиште це поле порожнім, якщо ви хочете створити додаток найвищого рівня.
+appWithinMinutes.createApp.parent.placeholder=Шлях.До.Батька
+appWithinMinutes.codeSpace.title=Код
+appWithinMinutes.codeSpace.description=Розташування коду додатка.
+appWithinMinutes.codeSpace.hiddenPagesInfo=Приховані сторінки також перелічені, навіть якщо ваші поточні налаштування профілю користувача не дозволяють це робити, інакше жодну зі сторінок коду додатка не буде видно, оскільки вони приховані за умовчанням.
+platform.appwithinminutes.appNamePageTitle=Створити додаток
+platform.appwithinminutes.appNameLabel=Назва додатка
+platform.appwithinminutes.appNameHint=Назва додатка визначає URL-адресу домашньої сторінки та місце, де зберігається код додатка.
+platform.appwithinminutes.appNamePreviewHomePageUrlLabel=URL домашньої сторінки додатка
+platform.appwithinminutes.appNamePreviewCodeSpaceLabel=Розташування коду додатка
+platform.appwithinminutes.appNameIsUsedWarning=Такий додаток вже існує. Якщо ви перейдете до наступного кроку, то редагуватимете існуючий додаток.
+platform.appwithinminutes.appNameEmptyError=Будь ласка, введіть назву додатка.
+
+### Wizard Step 2: Application Structure
+platform.appwithinminutes.classEditorPaletteTitle=Палітра полів
+platform.appwithinminutes.classEditorPaletteHint=Перетягніть поля з палітри, щоб створити форму, яка буде використана для введення даних.
+platform.appwithinminutes.classEditorCanvasHint=Перетягніть поля з палітри та помістіть їх у цій області.
+platform.appwithinminutes.classEditorUpdateTemplateLabel=Оновити шаблон
+platform.appwithinminutes.classEditorUpdateTemplateHint=Шаблон ({0}) зберігає значення полів за умовчанням.
+platform.appwithinminutes.classEditorUpdateSheetLabel=Оновити аркуш
+platform.appwithinminutes.classEditorUpdateSheetHint=Аркуш ({0}) використовується для відображення і редагування структурованих даних.
+platform.appwithinminutes.classEditorUpdateTranslationsLabel=Оновити переклад
+platform.appwithinminutes.classEditorUpdateTranslationsHint=Оновлення перекладу користувацьких назв полів і значень списку ({0}).
+platform.appwithinminutes.classEditorMultipleSheetsWarning=Цей клас містить кілька аркушів.
+platform.appwithinminutes.classEditorDuplicateFieldNameError=Клас містить два поля з однаковими назвами: {0}
+platform.appwithinminutes.classEditorTemplateSaveComment=Оновити значення за умовчанням
+platform.appwithinminutes.classEditorBindSheetSaveComment=Прив'язати аркуш класу
+platform.appwithinminutes.classEditorSheetSaveComment=Оновити аркуш класу
+platform.appwithinminutes.classEditorTranslationsSaveComment=Оновити переклади
+platform.appwithinminutes.classEditorStandardCategoryName=Звичайний
+platform.appwithinminutes.classEditorPickersCategoryName=Вибирачі
+platform.appwithinminutes.classEditorDocumentCategoryName=Сторінка
+platform.appwithinminutes.classEditorAdvancedCategoryName=Додатково
+platform.appwithinminutes.classEditorDBListFieldName=Список БД
+platform.appwithinminutes.classEditorGroupsFieldName=Група
+platform.appwithinminutes.classEditorUsersFieldName=Користувач
+platform.appwithinminutes.classEditorDateFieldName=Дата
+platform.appwithinminutes.classEditorStaticListFieldName=Статичний список
+platform.appwithinminutes.classEditorBooleanFieldName=Булеве значення
+platform.appwithinminutes.classEditorNumberFieldName=Число
+platform.appwithinminutes.classEditorTextAreaFieldName=Довгий текст
+platform.appwithinminutes.classEditorStringFieldName=Короткий текст
+platform.appwithinminutes.classEditorContentFieldName=Вміст
+platform.appwithinminutes.classEditorTitleFieldName=Назва
+platform.appwithinminutes.classEditorPageFieldName=Сторінка
+platform.appwithinminutes.classEditorDeleteFieldLabel=Видалити
+platform.appwithinminutes.classEditorConfigureFieldLabel=Налаштувати
+platform.appwithinminutes.classEditorPreviewFieldLabel=Попередній перегляд
+platform.appwithinminutes.classEditorPreviewFieldHint=Приховати панель конфігурації і застосувати зміни
+platform.appwithinminutes.classEditorMoveFieldLabel=Перемістити
+platform.appwithinminutes.classEditorMoveFieldHint=Перетягніть для зміни порядку
+platform.appwithinminutes.classEditorFieldDefaultValueToolTip=Значення за умовчанням
+
+### Date Picker
+platform.appwithinminutes.classEditorDatePickerAcceptSelectedDate=OK
+platform.appwithinminutes.classEditorDatePickerClearSelectedDate=Очистити
+platform.appwithinminutes.classEditorDatePickerSelectCurrentTime=Зараз
+platform.appwithinminutes.classEditorDatePickerSelectCurrentDate=Сьогодні
+
+### Static List Editor
+platform.appwithinminutes.classEditorStaticListEditorItemValueLabel=Значення
+platform.appwithinminutes.classEditorStaticListEditorItemIDLabel=Ідентифікатор
+platform.appwithinminutes.classEditorStaticListEditorAddItemLabel=Додати
+platform.appwithinminutes.classEditorStaticListEditorDeleteItemLabel=Видалити
+appWithinMinutes.templateProviderEditor.hint=Записи додатка є вікі-сторінками зі структурованими даними.
+appWithinMinutes.templateProviderEditor.icon.hint=Значок, пов'язаний з додатком.
+appWithinMinutes.templateProviderEditor.description.hint=Короткий опис додатка.
+appWithinMinutes.templateProviderEditor.visibilityRestrictions.name=Створення записів з
+appWithinMinutes.templateProviderEditor.visibilityRestrictions.hint=Якщо розташування не вибране, записи можна створювати з будь якої сторінки.
+appWithinMinutes.templateProviderEditor.creationRestrictions.name=Створення записів
+appWithinMinutes.templateProviderEditor.creationRestrictions.hint=Якщо розташування не вибране, записи можна створювати в будь якому місці вікі.
+appWithinMinutes.templateProviderEditor.creationRestrictionsAreSuggestions.name=Не застосовувати розташування записів
+appWithinMinutes.templateProviderEditor.creationRestrictionsAreSuggestions.hint=Використовувати вказані вище місця лише як пропозиції, що дозволяє користувачеві вибрати інше місце розташування при створенні запису програми.
+appWithinMinutes.templateProviderEditor.terminal.hint=Чи мають бути записи додатку термінальними сторінками, чи ні.
+
+### Wizard Step 3: Application Presentation
+platform.appwithinminutes.liveTableEditorClassFieldColumnGroupLabel=Поля додатку
+platform.appwithinminutes.liveTableEditorGenericColumnGroupLabel=Загальні стовпці
+platform.appwithinminutes.liveTableEditorHelpTitle=Порада
+platform.appwithinminutes.liveTableEditorHelpDescription=Загальні стовпці динамічної таблиці є незалежними від структури вашого додатка. Вони надають інформацію про сторінки, на яких зберігаються дані вашого додатка.
+platform.appwithinminutes.liveTableEditorDocTitleColumnName=Заголовок сторінки
+platform.appwithinminutes.liveTableEditorDocTitleColumnDescription=Заголовок сторінки, що містить дані додатка
+platform.appwithinminutes.liveTableEditorDocNameColumnName=Назва сторінки
+platform.appwithinminutes.liveTableEditorDocNameColumnDescription=Назва сторінки, яка містить дані додатка
+platform.appwithinminutes.liveTableEditorDocLocationColumnName=Розташування
+platform.appwithinminutes.liveTableEditorDocLocationColumnDescription=Місце розташування сторінки, яка містить дані додатка
+platform.appwithinminutes.liveTableEditorDocAuthorColumnName=Останній автор
+platform.appwithinminutes.liveTableEditorDocAuthorColumnDescription=Користувач, який востаннє редагував дані додатка
+platform.appwithinminutes.liveTableEditorDocCreatorColumnName=Автор
+platform.appwithinminutes.liveTableEditorDocCreatorColumnDescription=Користувач, який створив дані додатка
+platform.appwithinminutes.liveTableEditorDocDateColumnName=Дата
+platform.appwithinminutes.liveTableEditorDocDateColumnDescription=Дата, коли дані додатка були востаннє відредаговані
+platform.appwithinminutes.liveTableEditorDocCreationDateColumnName=Дата створення
+platform.appwithinminutes.liveTableEditorDocCreationDateColumnDescription=Дата створення даних додатка
+platform.appwithinminutes.liveTableEditorActionsColumnName=Дії
+platform.appwithinminutes.liveTableEditorActionsColumnDescription=Перелік дій, які можна виконати над даними додатку, таких як редагування та видалення
+platform.appwithinminutes.liveTableEditorAttachmentsColumnName=Вкладення
+platform.appwithinminutes.liveTableEditorAttachmentsColumnDescription=Спеціальний стовпець для перегляду посилань на вкладенні файли на сторінці даних
+platform.appwithinminutes.liveTableEditorImagesColumnName=Зображення
+platform.appwithinminutes.liveTableEditorImagesColumnDescription=Спеціальний стовпець для перегляду зображень, що прикріплені до сторінки даних
+platform.appwithinminutes.liveTableEditorAvatarColumnName=Аватарка
+platform.appwithinminutes.liveTableEditorAvatarColumnDescription=Спеціальний стовпець для перегляду аватарки користувача. Працює тільки з таблицею, прив'язаної до класу XWiki.XWikiUsers
+platform.appwithinminutes.liveTableEditorTitleHint=Заголовок додатка, який буде показуватися на домашній сторінці програми, на панелі додатків та на динамічній таблиці, на навігаційному ланцюжку та ін.
+platform.appwithinminutes.liveTableEditorDescriptionHint=Вміст, який буде зображатися на домашній сторінці над динамічною таблицею з даними додатку. Використовуйте його для опису додатка.
+platform.appwithinminutes.liveTableEditorColumnsHint=Виберіть стовпці, які ви хочете включити в динамічну таблицю для показу на домашній сторінці програми.
+platform.appwithinminutes.liveTableEditorSaveComment=Оновити динамічну таблицю
+platform.appwithinminutes.liveTableEditorMoveColumnHint=Перетягніть для зміни порядку
+platform.appwithinminutes.liveTableEditorDeleteColumnHint=Видалити
+platform.appwithinminutes.liveTableEditorAddColumnHint=Додати вибраний стовпець
+platform.appwithinminutes.liveTableEditorDeprecatedColumnsWarning=Деякі стовпці вважаються застарілими, напевно, тому, що відповідне поле додатка було видалено. Ви хочете їх видалити? &lt;a href=""&gt;Так &lt;/a&gt; / &lt;a href=""&gt;Ні &lt;/a&gt;
+platform.appwithinminutes.liveTableEditorIcon=Піктограма
+platform.appwithinminutes.liveTableEditorIconHintWithPicker=Піктограма додатку. Ви можете вибрати піктограму з каталогу або посилатися на вкладене зображення.
+
+### Wizard Step 4: Application home page
+platform.appwithinminutes.appLiveTableHeading=Записи
+platform.appwithinminutes.appLiveTableEditEntryActionName=Редагувати
+platform.appwithinminutes.appLiveTableDeleteEntryActionName=Видалити
+platform.appwithinminutes.appHomePageActionsHeading=Дії
+platform.appwithinminutes.appHomePageAddEntryLabel=Додати
+platform.appwithinminutes.appHomePageAddEntryHint=Додати новий запис
+platform.appwithinminutes.appHomePageEntryNameLabel=Назва запису:
+platform.appwithinminutes.appHomePageDeleteEntriesLabel=Видалити всі записи
+platform.appwithinminutes.appHomePageEditAppLabel=Редагувати додаток
+platform.appwithinminutes.appHomePageTranslateAppLabel=Перекласти додаток
+platform.appwithinminutes.appHomePageDeleteAppLabel=Видалити додаток
+platform.appwithinminutes.appHomePageMovedWarning=Додаток може працювати неправильно, оскільки він був перенесений або видалений без оновлення коду. Будь ласка, налаштуйте додаток та дотримуйтесь кроків, щоб оновити код.
+platform.appwithinminutes.appHomePageNoScriptRight=Ви не маєте права сценарію, необхідного для створення чи редагування програми. Коли ви продовжите, програма може не працювати належним чином.
+AppWithinMinutes.LiveTableClass_description=Опис
+AppWithinMinutes.LiveTableClass_columns=Стовпці динамічної таблиці
+
+### Delete application dialog
+platform.appwithinminutes.deleteAppConfirmation=Додаток {0} і ВСІ його записи будуть видалені. Ви дійсно хочете продовжити?
+platform.appwithinminutes.deleteAppEntriesConfirmation=Всі елементи додатка {0} будуть видалені. Ви дійсно хочете продовжити?
+platform.appwithinminutes.deleteAppDoesNotExistError=Зазначеного додатка не існує.
+platform.appwithinminutes.deleteAppInvalidAppError=Зазначена назва не є коректною для програми Додаток за декілька Хвилин.
+platform.appwithinminutes.deleteAppNotSpecifiedError=Не зазначено назву додатку.
+
+### Rename Application
+appWithinMinutes.renameApp.label=Перейменувати додаток
+appWithinMinutes.renameApp.close=Закрити
+
+### Rename Application
+appWithinMinutes.renameApp.changeAppTitleInfo=Ви можете змінити назву додатка без перейменування додатка, просто через редагування домашної сторінки програми.
+appWithinMinutes.renameApp.regenerateAppCodeWarning=Код додатка буде відновлено, якщо ви перейменуєте додаток. Як наслідок, налаштування коду буде перезаписано.
+appWithinMinutes.renameApp.newName.label=Нова назва
+appWithinMinutes.renameApp.pageExistsError=Сторінка з такою назвою вже існує в обраному місці.
+appWithinMinutes.renameApp.locationForbiddenError=Вам не можете переміщувати додаток в обране місце.
+appWithinMinutes.renameApp.location.label=Нове місце
+appWithinMinutes.renameApp.location.hint=Місце розташування в ієрархії сторінок, куди можна перемістити додаток.
+appWithinMinutes.renameApp.parent.label=Новий батько
+appWithinMinutes.renameApp.parent.hint=Нова батьківська сторінка. Залиште це поле порожнім, якщо ви хочете перемістити додаток у верхівку ієрархії сторінок.
+appWithinMinutes.renameApp.inProgress=Перейменування додатка...
+appWithinMinutes.renameApp.done=Додаток перейменований
+appWithinMinutes.renameApp.failed=Не вдалося перейменувати додаток
+
+### Deprecated keys
+### Since 8.4
+platform.appwithinminutes.appNamePreviewClassReferenceLabel=Клас додатка
+platform.appwithinminutes.appNamePreviewDataSpaceLabel=Місце розташування даних додатка
+platform.appwithinminutes.liveTableEditorDocSpaceColumnName=Простір
+platform.appwithinminutes.liveTableEditorDocSpaceColumnDescription=Назва простору, що містить запис додатка
+platform.appwithinminutes.liveTableEditorDocFullNameColumnName=Повна назва сторінки
+platform.appwithinminutes.liveTableEditorDocFullNameColumnDescription=Назва сторінки, яка містить запис додатка, з префіксом назвою простору
+
+#@deprecated appWithinMinutes.wizardStep.name.name
+platform.appwithinminutes.wizardStep1Name=Назва
+#@deprecated appWithinMinutes.wizardStep.name.title
+platform.appwithinminutes.wizardStep1Title=Назвіть свою програму
+#@deprecated appWithinMinutes.wizardStep.name.description
+platform.appwithinminutes.wizardStep1Description=Виберіть назву програми
+#@deprecated appWithinMinutes.wizardStep.structure.name
+platform.appwithinminutes.wizardStep2Name=Структура
+#@deprecated appWithinMinutes.wizardStep.structure.title
+platform.appwithinminutes.wizardStep2Title=Структура ваших даних
+#@deprecated appWithinMinutes.wizardStep.structure.description
+platform.appwithinminutes.wizardStep2Description=Опишіть дані додатка
+#@deprecated appWithinMinutes.wizardStep.presentation.name
+platform.appwithinminutes.wizardStep3Name=Подання
+#@deprecated appWithinMinutes.wizardStep.presentation.title
+platform.appwithinminutes.wizardStep3Title=Персоналізувати домашню сторінку програми
+#@deprecated appWithinMinutes.wizardStep.presentation.description
+platform.appwithinminutes.wizardStep3Description=Персоналізувати домашню сторінку програми
+
+### Since 11.0
+platform.appwithinminutes.appsLiveTable.doc.space=Назва програми
+appWithinMinutes.classEditor.title={0} Структура
+appWithinMinutes.templateProviderEditor.title={0} Записи
+</content>
+</xwikidoc>
